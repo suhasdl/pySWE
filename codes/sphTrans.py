@@ -4,7 +4,6 @@ atmospheric models.  Provides an interface to shtns compatible
 with pyspharm (pyspharm.googlecode.com).
 Copied from shtns example file with slight modifications.
 """
-
 import numpy as np
 import shtns
 
