@@ -3,7 +3,6 @@ Code for time stepping using a 3rd order Adams-Bashforth method.
 First two steps need to be initialised through other meanns.
 Here euler's forward method and 2nd order Adams-Bashforth is uded for first two timesteps.
 """
-
 import numpy as np
 
 class AdamBash(object):
