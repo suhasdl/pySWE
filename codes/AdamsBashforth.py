@@ -8,7 +8,7 @@ import numpy as np
 
 class AdamBash(object):
     # you can input the hyper-viscosity diffusion function
-    def __init__(self, dfdt, diffusion = None, ncycle = 0):
+    def __init__(self, dfdt, diffusion, ncycle = 0):
         self.ncycle = ncycle
         self.dfdt = dfdt
         self.diffusion = diffusion
@@ -26,9 +26,8 @@ class AdamBash(object):
             f1 = F1 + dt*((3/2.)*fnew - (1/2.)*self.fnow)  #2nd order AB
         else:
             f1 = F1 + dt*((23/12.)*fnew - (16/12.)*self.fnow + (5/12.)*self.fold) #3rd order AB
-
-        if diffusion != None:
-            fq = self.diffusion(dt,f1)
+            
+        fq = self.diffusion(dt,f1)
         tnew = t+dt
         self.fold = self.fnow.copy()
         self.fnow = fnew.copy()

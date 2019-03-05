@@ -1,6 +1,7 @@
+from __future__ import print_function
 from netCDF4 import Dataset
 import numpy as np
-from __future__ import print_function
+
 
 class logData(object):
 
