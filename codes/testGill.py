@@ -1,7 +1,7 @@
 """
 Code to solve shallow water equations on a sphere
 SWE are of the vorticity-divergence form
-Experiment is started with a gaussian mass source, similar to Matsuno (1966) and Gill (1080) paper.
+Experiment is started with a single mass source, similar to Matsuno (1966) and Gill (1080) paper.
 Steady state solutions is dominated by Kelvin waves to the east and Rossby waves to the west of the source.
 """
 from __future__ import print_function
