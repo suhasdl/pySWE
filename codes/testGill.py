@@ -1,5 +1,9 @@
-#Code to solve shallow water equations on a sphere
-#SWE are of the vorticity-divergence form.
+"""
+Code to solve shallow water equations on a sphere
+SWE are of the vorticity-divergence form
+Experiment is started with a gaussian mass source, similar to Matsuno (1966) and Gill (1080) paper.
+Steady state solutions is dominated by Kelvin waves to the east and Rossby waves to the west of the source.
+"""
 from __future__ import print_function
 import numpy as np
 import sphTrans as sph
@@ -28,9 +32,9 @@ latDeg = np.degrees(lats)
 lonDeg = np.degrees(lons)
 
 # Relaxation time scales
-tau_vrt = 10*24*3600. # 10 days
-tau_div = 10*24*3600.
-tau_ht  = 10*24*3600.
+tau_vrt = 10*24*3600. # vrt drag = 10 days
+tau_div = 10*24*3600. # div drag = 10 days
+tau_ht  = 10*24*3600. # ht drag = 10 days
 
 ########### Mass forcing #########################################
 # a single gaussian blob for gill forcing
@@ -47,6 +51,7 @@ Hbar = 300. # mean height
 zero_array = np.zeros_like(S)
 htsp = x.grdtospec(zero_array + Hbar)
 zero_array_sp = np.zeros_like(htsp)
+# vrt and div are initialised with zeros
 vrtsp = zero_array_sp
 divsp = zero_array_sp
 ##################################################
