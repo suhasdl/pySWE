@@ -14,9 +14,6 @@ Steady state height and velocity fields for the Matsuno (vorticity) forcing case
 Reduction in wavespeed in the presence of moisture.
 ![](docs/images/gravity_chi.png)
 
-Splitting of zonal wind into rotational and divergent parts.
-![](docs/images/UDivRot.png)
-
 Wheeler-Kiladis plot showing the power spectra of various tropical waves.
 ![](docs/images/WK_mult.png)
 
