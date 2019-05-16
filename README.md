@@ -18,10 +18,10 @@ Wheeler-Kiladis plot showing the power spectra of various tropical waves.
 <img src="docs/images/WK_mult.png" width="500">
 
 Momentum fluxes showing the emergence of super-rotating state.
-![](docs/images/flux.png)
+<img src="docs/images/flux.png" width="1000">
 
 Kinetic energy spectra showing an inverse cascade with a scaling of -5/3.
-![](docs/images/spectra.png)
+<img src="docs/images/spectra.png" width="500">
 
 
 
