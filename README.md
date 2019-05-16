@@ -14,15 +14,16 @@ Steady state height and velocity fields for the Matsuno (vorticity) forcing case
 Reduction in wavespeed in the presence of moisture. 
 <img src="docs/images/gravity_chi.png" width="1000">
 
+<p align="center">
 Wheeler-Kiladis plot showing the power spectra of various tropical waves.
 <img src="docs/images/WK_mult.png" width="500">
 
 Momentum fluxes showing the emergence of super-rotating state.
 <img src="docs/images/flux.png" width="1000">
 
+<p align="center">
 Kinetic energy spectra showing an inverse cascade with a scaling of -5/3.
 <img src="docs/images/spectra.png" width="500">
-</p>
 
 
 ## Requirements :
