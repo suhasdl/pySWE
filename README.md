@@ -28,4 +28,5 @@ Kinetic energy spectra showing an inverse cascade with a scaling of -5/3.
 
 ## Requirements :
 You need to install shtns (https://users.isterre.fr/nschaeff/SHTns/) and fftw (http://www.fftw.org/) library.
-Installation guide can be found here https://users.isterre.fr/nschaeff/SHTns/compil.html
+More details can be found here https://bitbucket.org/nschaeff/shtns/src/master/. 
+If you use Anaconda, you can refer here https://anaconda.org/conda-forge/shtns.
